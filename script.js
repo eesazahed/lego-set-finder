@@ -15,7 +15,7 @@ async function searchForSet(theme, set) {
   loading.innerHTML = "Loading...";
   main.innerHTML = "";
 
-  const themesFile = "themes.json";
+  const themesFile = "./themes.json";
   const themesResponse = await fetch(themesFile);
   const themesData = await themesResponse.json();
 
