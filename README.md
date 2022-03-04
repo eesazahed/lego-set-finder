@@ -1,4 +1,4 @@
-# lego-set-finder
+# lego-set-finder (https://eesazahed.github.io/lego-set-finder/)
 Finds lego sets with rebrickable.com.
 
 You can type in the theme and name of the set you want to see. For the API key, I signed up and generated a free API key, which gives access to an object of Lego sets.
