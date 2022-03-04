@@ -15,8 +15,8 @@ async function searchForSet(theme, set) {
   loading.innerHTML = "Loading...";
   main.innerHTML = "";
 
-  const themesURL = `https://rebrickable.com/api/v3/lego/themes/?key=${apikey}&page_size=1000`;
-  const themesResponse = await fetch(themesURL);
+  const themesFile = "themes.json";
+  const themesResponse = await fetch(themesFile);
   const themesData = await themesResponse.json();
 
   let returnedThemes = [];
