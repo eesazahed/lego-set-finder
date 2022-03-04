@@ -1,4 +1,4 @@
-const apikey = "331409ebdde7e6b59a1056f636dd98d5";
+const apikey = ""; // Insert your API key here. 
 
 const main = document.getElementById("main");
 const form = document.getElementById("form");
@@ -37,7 +37,7 @@ async function searchForSet(theme, set) {
     });
     searchForTheme(returnedThemes, set);
   } else {
-    loading.innerHTML = "No data available.";
+    loading.innerHTML = "Theme unavailable.";
   }
 }
 
@@ -66,7 +66,7 @@ async function searchForTheme(themes, set) {
     );
     loading.innerHTML = "";
   } else {
-    loading.innerHTML = "No data available.";
+    loading.innerHTML = "Set unavailable";
   }
 }
 
