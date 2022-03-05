@@ -1,4 +1,4 @@
-# lego-set-finder (https://eesazahed.github.io/lego-set-finder/)
+# lego-set-finder ([View Live](https://eesazahed.github.io/lego-set-finder/))
 Finds lego sets with rebrickable.com.
 
 
